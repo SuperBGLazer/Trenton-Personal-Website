@@ -1,6 +1,6 @@
 /*Styles for general tags*/
 .wrapper{
-    width:5px;
+    width:4pt;
 }
 body{
     margin:0;
@@ -8,22 +8,21 @@ body{
 
 h2{
     font-family:monospace;
-    font-size:50px;
+    font-size:38pt;
     color: #8001FE;
-    margin-block-start: 0em;
-    margin-block-end:0em;
+    margin-block-start: 0pt;
+    margin-block-end:0pt;
 }
 h3{
     color: #8001FE;
     font-family:monospace;
-    font-size:35px;
+    font-size:26pt;
 }
 p{
-    margin-block-start: 0em;
-    margin-block-end:0em;
+    margin-block-start: 0pt;
+    margin-block-end:0pt;
     color: #8001FE;
     font-family:monospace;
-    font-size:1.75em;
 }
 
 button{
@@ -41,20 +40,20 @@ img{
     z-index:2;
     height:25vw;
     display:grid;
-    grid-gap:2em;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-gap:24pt;
+    grid-template-columns: repeat(auto-fit, minmax(38pt, 1fr));
     background:linear-gradient( black, #350E56);
 
     .top-navbar-links-container{
-        padding: 1.5em 0;
+        padding: 18pt 0;
         grid-column:auto/span 2;
-        margin-left: 25em;
+        margin-left: 300pt;
 
         a.top-navbar-links-container{
         font-family:monospace;
         color: #8001FE;
-        font-size:1.5em;
-        padding:2.2em;
+        font-size:18pt;
+        padding:26pt;
         margin: 0;
         }
         a.top-navbar-links-container:hover{
@@ -63,12 +62,12 @@ img{
         }
     }
     .hamburger-bttn{
-        height:4em;
+        height:48pt;
         .hamburger-bttn-img{
-            height:3em;
+            height:36pt;
             justify-content:center;
             align-items:center;
-            margin-top:.75em;
+            margin-top:.900pt;
             float:right;
         }
     }
@@ -87,8 +86,8 @@ img{
     display:grid;
 }
 .dropdown-links{
-    margin-bottom:.5em;
-    padding: 0 .5em;
+    margin-bottom:.60pt;
+    padding: 0 .60pt;
     color: #8001FE;
     font-family:monospace;
     font-size: 0vw;
@@ -98,12 +97,12 @@ img{
 }
 
 .top-navbar-home-link{
-    margin: .35em 0;
-    margin-bottom:1.5em;
+    margin: .420pt 0;
+    margin-bottom:18pt;
     font-family:monospace;
     color:white;
-    font-size:1.6em;
-    margin-left:.25em;
+    font-size:19pt;
+    margin-left:.300pt;
     display:flex;
     width:50%;
     a.top-navbar-home-link:hover{
@@ -120,7 +119,7 @@ img{
     position: relative;
     width:100%;
     height:auto;
-    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(375pt,1fr));
     overflow-x:hidden;
     /*Styles for text next to my headshot*/
 
@@ -128,27 +127,28 @@ img{
         background: linear-gradient(#cf9bfe, #8001FE);
         width:100%;
         .descriptors {
-            font-size: 2.85em;
+            font-size: 16pt !important;
             font-family: monospace;
-            width:100%;
             p.descriptors {
-                margin: .15em;
+                margin: .180pt;
                 text-align: center;
                 color: white;
                 background-color: black;
+                border-radius: 24pt;
+                padding: .60pt;
+
             }
 
-            #descriptor-analyst {
+            /* #descriptor-analyst {
                 margin-right:17vw;
-                border-radius:2em;
-                text-align:left;
-                width:65vw;
-            }
+                border-radius:24pt;
+                text-align:center;
+            } */
 
-            #descriptor-designer {
-                width: 4.75em;
+            /* #descriptor-designer {
+                width: 57pt;
                 float: right;
-                border-radius:2em;
+                border-radius:24pt;
                 padding-left:5vw;
                 padding-right:5vw;
                 margin-right:0;
@@ -158,18 +158,18 @@ img{
                 color: black;
                 background-color: white;
                 width: 80vw;
-                border-radius:2em;
+                border-radius:24pt;
                 padding-left:5vw;
                 padding-right:5vw;
-                margin-top:.4em;
-                margin-bottom:.25em;
-            }
+                margin-top:.48pt;
+                margin-bottom:.300pt;
+            } */
         }
     }
 
     .name-container{
-        height:7em;
-        width:60%;
+        height:84pt;
+        width:100%;
         margin-bottom:9vw;
         }
     .name{
@@ -178,7 +178,7 @@ img{
         text-align:center;
         color:white;
         font-family:monospace;
-        font-size:4.25em;
+        font-size:25pt;
         text-decoration: underline;
         }
     /*Styles for headshot*/
@@ -198,24 +198,24 @@ img{
 /*Styles for the container containing my portfolio*/
 .myPortfolio{
     background-color:white;
-    padding:9em 0em;
+    padding:108pt 0pt;
     display: grid;
     position: relative;
-    grid-gap:2em;
-    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+    grid-gap:24pt;
+    grid-template-columns: repeat(auto-fit, minmax(94pt, 1fr));
     #heading-my-portfolio{
         grid-row:1;
         color: white;
-        padding-top:.1em;
-        padding-bottom:.1em;
+        padding-top:.12pt;
+        padding-bottom:.12pt;
         text-align: center;
-        font-size:8em;
+        font-size:96pt;
         grid-column:auto/span 3;
         background: linear-gradient(#cf9bfe, #8001FE);
-        border-radius:2em;
-        margin:1em;
+        border-radius:24pt;
+        margin:12pt;
         margin-bottom:0;
-        margin-top:0em;
+        margin-top:0pt;
     }
     /*Styles related to the Personal Finance Manager container.*/
     .personalFinanceManager{
@@ -225,8 +225,8 @@ img{
         align-content: center;
         justify-content: center;
          #img-personal-finance-manager{
-            border-radius: 5em;
-            width:27em;
+            border-radius: 60pt;
+            width:324pt;
             border: solid;
             border-color: black;
         }
@@ -237,9 +237,9 @@ img{
             background-color: rgba(0,0,0,.4);
             opacity:0;
             transition: 0.5s ease;
-            width:27.2em;
+            width:326pt;
             justify-self:center;
-            border-radius:5em;
+            border-radius:60pt;
         }
     }
     .personalFinanceManager:hover .financeHoverEffect{
@@ -251,8 +251,8 @@ img{
         align-content: center;
         justify-content: center;
         img.personalWebsite{
-            border-radius:5em;
-            width:27em;
+            border-radius:60pt;
+            width:324pt;
             border: solid;
             border-color: black;
         }
@@ -263,10 +263,10 @@ img{
             background-color: rgba(0,0,0,.4);
             opacity:0;
             transition: 0.5s ease;
-            width:27.2em;
-            height:27.4em;
+            width:326pt;
+            height:329pt;
             justify-self:center;
-            border-radius:5em;
+            border-radius:60pt;
         }
     }
     .personalWebsite:hover .personalWebsiteHoverEffect{
@@ -278,9 +278,9 @@ img{
         align-content: center;
         justify-content: center;
         img.carbonesMarketingSystem{
-            border-radius:5em;
-            height:27em;
-            width:27em;
+            border-radius:60pt;
+            height:324pt;
+            width:324pt;
             object-fit: scale-down;
             border: solid;
             border-color: black;
@@ -292,10 +292,10 @@ img{
             background-color: rgba(0,0,0,.4);
             opacity:0;
             transition: 0.5s ease;
-            width:27.2em;
-            height:27.2em;
+            width:326pt;
+            height:326pt;
             justify-self:center;
-            border-radius:5em;
+            border-radius:60pt;
         }
         }
     .carbonesMarketingSystem:hover .carbonesHoverEffect{
@@ -322,19 +322,19 @@ img{
         margin: 15% auto;
         background-color: white;
         box-sizing: border-box;
-        border: .5em solid;
-        border-radius: 1.5em;
+        border: .60pt solid;
+        border-radius: 18pt;
         border-color: #8001FE;
 
         #pop-up-finance-close-button{
             float:right;
-            margin:.3em .7em;
+            margin:.36pt .84pt;
             background:rgba(0,0,0,0);
-            border-radius:.3em;
+            border-radius:.36pt;
             border-color:lightslategrey;
             color:#8001FE;
             font-family:monospace;
-            font-size:1.8em;
+            font-size:22pt;
         }
         #pop-up-finance-close-button:hover{
             transition:.5s ease;
@@ -343,20 +343,20 @@ img{
         }
         #image-personal-finance-manager{
             display:block;
-            width:50em;
+            width:600pt;
             margin-right:auto;
             margin-left:auto;
         }
         #text-personal-finance-manager{
-            padding:2em;
+            padding:24pt;
         }
         a.pop-up-finance-content{
             font-family: monospace;
-            font-size:1.75em;
-            padding:.5em;
-            margin-left:.75em;
+            font-size:21pt;
+            padding:.60pt;
+            margin-left:.900pt;
             color:black;
-            margin-bottom:.2em;
+            margin-bottom:.24pt;
             border:0;
             background:none;
         }
@@ -367,7 +367,7 @@ img{
          }
         #heading-personal-finance-manager{
             text-align:center;
-            font-size:4em;
+            font-size:48pt;
         }
     }
 }
@@ -390,28 +390,28 @@ img{
         margin: 15% auto;
         background-color: white;
         box-sizing: border-box;
-        border: .5em solid;
-        border-radius: 1.5em;
+        border: .60pt solid;
+        border-radius: 18pt;
         border-color: #8001FE;
         #image-personal-website{
             display:block;
-            width:50em;
+            width:600pt;
             margin-right:auto;
             margin-left:auto;
         }
         #heading-personal-website{
             text-align:center;
-            font-size:4em;
+            font-size:48pt;
         }
         #pop-up-personal-website-close-button{
             float:right;
-            margin:.3em .7em;
+            margin:.36pt .84pt;
             background:rgba(0,0,0,0);
-            border-radius:.3em;
+            border-radius:.36pt;
             border-color:lightslategrey;
             color:#8001FE;
             font-family:monospace;
-            font-size:1.8em;
+            font-size:22pt;
         }
         #pop-up-personal-website-close-button:hover{
             transition:.5s ease;
@@ -420,11 +420,11 @@ img{
         }
         a.pop-up-personal-website-content{
             font-family: monospace;
-            font-size:1.75em;
-            padding:.5em;
-            margin-left:.75em;
+            font-size:21pt;
+            padding:.60pt;
+            margin-left:.900pt;
             color:black;
-            margin-bottom:.2em;
+            margin-bottom:.24pt;
             border:0;
             background:none;
         }
@@ -434,7 +434,7 @@ img{
             text-decoration-color:#8001FE;
         }
         #text-personal-website{
-            padding:2em;
+            padding:24pt;
         }
     }
 }
@@ -457,18 +457,18 @@ img{
         margin: 15% auto;
         background-color: white;
         box-sizing: border-box;
-        border: .5em solid;
-        border-radius: 1.5em;
+        border: .60pt solid;
+        border-radius: 18pt;
         border-color: #8001FE;
         #pop-up-carbones-website-close-button{
             float:right;
-            margin:.3em .7em;
+            margin:.36pt .84pt;
             background:rgba(0,0,0,0);
-            border-radius:.3em;
+            border-radius:.36pt;
             border-color:lightslategrey;
             color:#8001FE;
             font-family:monospace;
-            font-size:1.8em;
+            font-size:22pt;
         }
         #pop-up-carbones-website-close-button:hover{
             transition:.5s ease;
@@ -477,31 +477,31 @@ img{
         }
         #image-carbones-website{
             display:block;
-            width:30em;
+            width:360pt;
             margin-right:auto;
             margin-left:auto;
         }
         #pop-up-carbones-website-text{
-            padding:2em;
+            padding:24pt;
         }
         #link-my-projects{
             font-family: monospace;
-            font-size:1.75em;
-            padding:.5em;
-            margin-left:.75em;
+            font-size:21pt;
+            padding:.60pt;
+            margin-left:.900pt;
         }
         h3.carbonesMarketingSystem{
             text-align:center;
-            font-size:4em;
-            padding:0em .5em;
+            font-size:48pt;
+            padding:0pt .60pt;
         }
         a.pop-up-carbones-website-content{
             font-family: monospace;
-            font-size:1.75em;
-            padding:.5em;
-            margin-left:.75em;
+            font-size:21pt;
+            padding:.60pt;
+            margin-left:.900pt;
             color:black;
-            margin-bottom:.2em;
+            margin-bottom:.24pt;
             border:0;
             background:none;
         }
@@ -520,27 +520,27 @@ img{
     background: linear-gradient(#8001FE, #cf9bfe);
     display: grid;
     position: relative;
-    grid-gap:2em;
-    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+    grid-gap:24pt;
+    grid-template-columns: repeat(auto-fit, minmax(94pt, 1fr));
     #heading-about{
-        font-size:5em;
+        font-size:60pt;
         color:#8001FE;
         text-align:center;
-        margin-top:.5em;
-        margin-right:.75em;
-        padding:.3em;
+        margin-top:.60pt;
+        margin-right:.900pt;
+        padding:.36pt;
         background-color:white;
-        border-radius:2em;
+        border-radius:24pt;
     }
     .about-container-text{
-        padding:5em 0em;
+        padding:60pt 0pt;
     }
     #about-text{
         color:white;
-        padding-top:1.5em;
+        padding-top:18pt;
     }
     .about-container-image-circuts{
-        height:40em;
+        height:480pt;
         #about-image-circuts{
             height:100%;
             width:100%;
@@ -552,7 +552,7 @@ img{
 /*Styles for Contact container*/
 .contact{
     width:60%;
-    padding: 5em 2em;
+    padding: 60pt 24pt;
     margin-right:auto;
     margin-left:auto;
     display:flex;
@@ -562,32 +562,32 @@ img{
         align-items:center;
         justify-content:center;
         background: linear-gradient(#8001FE, #cf9bfe);
-        border-radius:2em;
+        border-radius:24pt;
         display: flex;
         flex-direction:column;
         width:80%;
         padding: 0 0;
         #heading-contact{
-            font-size:5.5em;
-            padding:.5em;
+            font-size:66pt;
+            padding:.60pt;
             color:white;
         }
         input.contact-form, textarea.contact-form{
-            margin:.75em 0 ;
-            padding: .5em;
+            margin:.900pt 0 ;
+            padding: .60pt;
             background:white;
             font-family:monospace;
-            font-size:1em;
+            font-size:12pt;
         }
         textarea.contact-form{
             resize: vertical;
         }
         #contact-button{
-            margin:2em 0;
-            padding:1.2em;
+            margin:24pt 0;
+            padding:14pt;
             background:black;
             color:white;
-            border-radius:2em;
+            border-radius:24pt;
             font-family:monospace;
             border-color:rgba(255,255,255,0);
         }
@@ -619,9 +619,9 @@ img{
     z-index:500;
     display: grid;
     position: relative;
-    grid-gap:2em;
-    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
-    padding:3em 0em;
+    grid-gap:24pt;
+    grid-template-columns: repeat(auto-fit, minmax(94pt, 1fr));
+    padding:36pt 0pt;
     background:linear-gradient(black, #350E56);
     .my-links-container{
         display: inline-grid;
@@ -634,7 +634,7 @@ img{
         font-family:monospace;
         color:white;
         a.my-links-container{
-            font-size:2em;
+            font-size:24pt;
         }
         a.my-links-container:hover{
             transition: 0.5s ease;
@@ -643,9 +643,9 @@ img{
         }
         #my-links-heading{
             color:#8001FE;
-            font-size:4em;
+            font-size:48pt;
             margin: 0 0;
-            margin-bottom:.5em;
+            margin-bottom:.60pt;
             grid-row:1;
         }
         #bot-navbar-home-link{
@@ -668,15 +668,15 @@ img{
         display:grid;
         text-decoration-color:#8001FE;
         font-family:monospace;
-        grid-gap: 0em;
+        grid-gap: 0pt;
         a.on-the-web-container{
             grid-row:2;
         }
         h3.on-the-web-container{
             grid-column: auto/span 2;
-            font-size: 4em;
+            font-size: 48pt;
             margin:0 0;
-            padding-bottom:.75em;
+            padding-bottom:.900pt;
             align-self:center;
             justify-self:center;
         }
@@ -685,10 +685,10 @@ img{
             align-self:center;
         }
         #normal-github-logo{
-            height:7em;
+            height:84pt;
         }
         #purple-github-logo{
-            height:7em;
+            height:84pt;
             display:none;
         }
         #linked-in-link{
@@ -717,9 +717,9 @@ img{
         justify-content:center;
         align-items:center;
         img.logo-container{
-            width:13em;
-            height:13em;
-            border-radius:.75em;
+            width:156pt;
+            height:156pt;
+            border-radius:.900pt;
         }
     }
 }
